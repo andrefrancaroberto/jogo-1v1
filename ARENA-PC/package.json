@@ -1,0 +1,24 @@
+{
+  "name": "arena-bet",
+  "version": "1.0.0",
+  "description": "ARENA BET - jogo de tiro 3D",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "server": "node server.js",
+    "dist": "electron-builder --win portable"
+  },
+  "dependencies": {
+    "three": "0.128.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.arenabet.game",
+    "productName": "ARENA BET",
+    "win": { "target": "portable" }
+  }
+}

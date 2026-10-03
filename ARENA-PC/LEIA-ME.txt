@@ -1,0 +1,24 @@
+ARENA BET - versão para baixar (Windows)
+
+COMO USAR (jeito fácil)
+- Instale o Node.js (LTS) em nodejs.org e dê dois cliques em LIGAR-JOGO.bat
+  (ou LIGAR-SERVIDOR.bat para ligar só o servidor). No menu do jogo também há o botão LIGAR SERVIDOR.
+
+COMO USAR (pelo terminal)
+1) Instale o Node.js (versão LTS) em nodejs.org, se ainda não tiver.
+2) Abra um terminal NESTA pasta e rode:   npm install
+3) Para jogar:                             npm start
+4) Para gerar um .exe (1 arquivo, é só mandar pro amigo):   npm run dist
+   O arquivo fica em  dist\ARENA BET 1.0.0.exe
+
+JOGAR ONLINE 1v1
+- Quem clicar em JOGAR vira o servidor. O menu mostra o endereço (ex: 192.168.0.10:3000).
+- O amigo abre o app, digita esse endereço em "ENTRAR NO SERVIDOR".
+- Depois, no jogo: ONLINE 1v1 > criar sala / entrar com o código.
+- Na mesma rede (Wi-Fi) funciona direto. Pela internet use Radmin VPN, Hamachi ou Tailscale
+  (ou abra a porta 3000 no roteador). Na 1ª vez o Windows pergunta sobre o firewall: permita.
+
+ATALHOS: F11 tela cheia · F10 volta ao menu inicial
+Se travar: no menu, mude o "Modo gráfico" (Direct3D 11 / OpenGL). O canto do jogo mostra a GPU em uso.
+
+O servidor antigo no navegador continua: npm run server  e  http://localhost:3000
